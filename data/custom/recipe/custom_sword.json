@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H",
+    "H",
+    "H"
+  ],
+  "key": {
+    "H": {
+      "item": "greatlifesteal:heart"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "custom:toxic_sword": 1
+      },
+      "minecraft:item_name": "{\"text\":\"Heartpiercer Sword\",\"color\":\"green\",\"bold\":true,\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Crafted from human essence.\",\"color\":\"gray\",\"italic\":true}",
+        "{\"text\":\"Inflicts Poison for 5 seconds on hit.\",\"color\":\"dark_green\",\"italic\":false}"
+      ]
+    }
+  }
+}

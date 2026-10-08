@@ -1,0 +1,26 @@
+{
+  "description": "Chaos Shot",
+  "supported_items": "minecraft:bow",
+  "max_level": 1,
+  "weight": 1,
+  "anvil_cost": 1,
+  "min_cost": { "base": 1, "per_level": 1 },
+  "max_cost": { "base": 50, "per_level": 1 },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "custom:random_effect"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
